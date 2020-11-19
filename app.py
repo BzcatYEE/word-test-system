@@ -1,7 +1,7 @@
 from tkinter import *
 import sqlite3
 
-conn = sqlite3.connect("python_資料庫\\words.db")
+conn = sqlite3.connect(".\words.db")
 c = conn.cursor()
 
 win = Tk()
